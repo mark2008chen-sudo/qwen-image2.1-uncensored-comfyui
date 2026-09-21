@@ -221,8 +221,8 @@
         "euler",
         "simple",
         1070478148268574,
-        "qwen-image-2.1-Q6_K.gguf",
-        "qwen3vl_8b_bf16.safetensors",
+        "qwen-image-2.1-Q8_0_fixed.gguf",
+        "qwen3vl_8b_int8_convrot.safetensors",
         "qwen_image_2.1_vae_bf16.safetensors"
       ],
       "widgets_values_named": {
@@ -237,8 +237,8 @@
         "scheduler": "euler",
         "scheduler_1": "simple",
         "seed": 1070478148268574,
-        "unet_name": "qwen-image-2.1-Q6_K.gguf",
-        "clip_name": "qwen3vl_8b_bf16.safetensors",
+        "unet_name": "qwen-image-2.1-Q8_0_fixed.gguf",
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
         "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
       }
     },
@@ -305,10 +305,10 @@
       "title": "Note: Model links",
       "properties": {},
       "widgets_values": [
-        "Guide: [Subgraph](https://docs.comfy.org/interface/features/subgraph)\n\n## Input Assets\n\n- [portrait_model_denim.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/portrait_model_denim.png)\n- [clothing_light_blue_denim_shirt.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/clothing_light_blue_denim_shirt.png)\n\n\n## Model Links\n\n**diffusion_models**\n\n- [qwen-image-2.1-Q6_K.gguf](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF/tree/main)\n\n**text_encoders**\n\n- [qwen3vl_8b_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_bf16.safetensors) \n\n**vae**\n\n- [qwen_image_2.1_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen-image-2.1-Q6_K.gguf\n│   ├── 📂 text_encoders/\n│   │   └── qwen3vl_8b_bf16.safetensors\n│   └── 📂 vae/\n│       └── qwen_image_2.1_vae_bf16.safetensors\n```"
+        "Guide: [Subgraph](https://docs.comfy.org/interface/features/subgraph)\n\n## Input Assets\n\n- [portrait_model_denim.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/portrait_model_denim.png)\n- [clothing_light_blue_denim_shirt.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/clothing_light_blue_denim_shirt.png)\n\n\n## Model Links\n\n**diffusion_models**\n\n- [qwen-image-2.1-Q8_0_fixed.gguf](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF/tree/main)\n\n**text_encoders**\n\n- [qwen3vl_8b_int8_convrot.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors) \n\n**vae**\n\n- [qwen_image_2.1_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen-image-2.1-Q8_0_fixed.gguf\n│   ├── 📂 text_encoders/\n│   │   └── qwen3vl_8b_int8_convrot.safetensors\n│   └── 📂 vae/\n│       └── qwen_image_2.1_vae_bf16.safetensors\n```"
       ],
       "widgets_values_named": {
-        "text": "Guide: [Subgraph](https://docs.comfy.org/interface/features/subgraph)\n\n## Input Assets\n\n- [portrait_model_denim.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/portrait_model_denim.png)\n- [clothing_light_blue_denim_shirt.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/clothing_light_blue_denim_shirt.png)\n\n\n## Model Links\n\n**diffusion_models**\n\n- [qwen-image-2.1-Q6_K.gguf](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF/tree/main)\n\n**text_encoders**\n\n- [qwen3vl_8b_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_bf16.safetensors) \n\n**vae**\n\n- [qwen_image_2.1_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen-image-2.1-Q6_K.gguf\n│   ├── 📂 text_encoders/\n│   │   └── qwen3vl_8b_bf16.safetensors\n│   └── 📂 vae/\n│       └── qwen_image_2.1_vae_bf16.safetensors\n```"
+        "text": "Guide: [Subgraph](https://docs.comfy.org/interface/features/subgraph)\n\n## Input Assets\n\n- [portrait_model_denim.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/portrait_model_denim.png)\n- [clothing_light_blue_denim_shirt.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/clothing_light_blue_denim_shirt.png)\n\n\n## Model Links\n\n**diffusion_models**\n\n- [qwen-image-2.1-Q8_0_fixed.gguf](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF/tree/main)\n\n**text_encoders**\n\n- [qwen3vl_8b_int8_convrot.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors) \n\n**vae**\n\n- [qwen_image_2.1_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen-image-2.1-Q8_0_fixed.gguf\n│   ├── 📂 text_encoders/\n│   │   └── qwen3vl_8b_int8_convrot.safetensors\n│   └── 📂 vae/\n│       └── qwen_image_2.1_vae_bf16.safetensors\n```"
       },
       "color": "#222",
       "bgcolor": "#000"
@@ -914,10 +914,10 @@
               "Node name for S&R": "UnetLoaderGGUF"
             },
             "widgets_values": [
-              "qwen-image-2.1-Q6_K.gguf"
+              "qwen-image-2.1-Q8_0_fixed.gguf"
             ],
             "widgets_values_named": {
-              "unet_name": "qwen-image-2.1-Q6_K.gguf"
+              "unet_name": "qwen-image-2.1-Q8_0_fixed.gguf"
             }
           },
           {
@@ -959,19 +959,19 @@
               "Node name for S&R": "CLIPLoader",
               "models": [
                 {
-                  "name": "qwen3vl_8b_bf16.safetensors",
-                  "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_bf16.safetensors",
+                  "name": "qwen3vl_8b_int8_convrot.safetensors",
+                  "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
                   "directory": "text_encoders"
                 }
               ]
             },
             "widgets_values": [
-              "qwen3vl_8b_bf16.safetensors",
+              "qwen3vl_8b_int8_convrot.safetensors",
               "qwen_image",
               "default"
             ],
             "widgets_values_named": {
-              "clip_name": "qwen3vl_8b_bf16.safetensors",
+              "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
               "type": "qwen_image",
               "device": "default"
             }

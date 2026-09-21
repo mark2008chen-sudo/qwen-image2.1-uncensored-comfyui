@@ -35,8 +35,8 @@
         {"name": "MODEL", "type": "MODEL", "links": [703]}
       ],
       "properties": {"Node name for S&R": "UnetLoaderGGUF"},
-      "widgets_values": ["qwen-image-2.1-Q6_K.gguf"],
-      "widgets_values_named": {"unet_name": "qwen-image-2.1-Q6_K.gguf"}
+      "widgets_values": ["qwen-image-2.1-Q8_0_fixed.gguf"],
+      "widgets_values_named": {"unet_name": "qwen-image-2.1-Q8_0_fixed.gguf"}
     },
     {
       "id": 453,
@@ -51,8 +51,8 @@
         {"name": "CLIP", "type": "CLIP", "links": [704]}
       ],
       "properties": {"Node name for S&R": "CLIPLoader"},
-      "widgets_values": ["qwen3vl_8b_bf16.safetensors", "qwen_image", "default"],
-      "widgets_values_named": {"clip_name": "qwen3vl_8b_bf16.safetensors", "type": "qwen_image", "device": "default"}
+      "widgets_values": ["qwen3vl_8b_int8_convrot.safetensors", "qwen_image", "default"],
+      "widgets_values_named": {"clip_name": "qwen3vl_8b_int8_convrot.safetensors", "type": "qwen_image", "device": "default"}
     },
     {
       "id": 454,

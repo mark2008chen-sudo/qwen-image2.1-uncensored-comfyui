@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON SCOPE
-
-This license covers ONLY the original content of this repository
-(workflows, scripts, patches, and documentation).
-
-Model weights are NOT included in this repository. The Qwen-Image-2.1 base
-model, its GGUF quantization, the text encoder and VAE repacks, and the
-ComfyUI-GGUF custom node are all third-party assets governed by their own
-licenses. See NOTICE.md for upstream links.

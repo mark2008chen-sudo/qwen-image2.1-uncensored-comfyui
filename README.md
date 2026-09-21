@@ -232,7 +232,7 @@ python scripts/download_models.py --dir <ComfyUI>/models --mirror
 
 ## 📄 许可与来源
 
-- **本仓库内容**（工作流、脚本、文档、补丁）：MIT，见 [NOTICE.md](NOTICE.md)
+- **本仓库内容**（工作流、脚本、文档、补丁）：[MIT](LICENSE)。该许可**仅覆盖本仓库原创内容**；模型权重、TE/VAE 重打包件、ComfyUI-GGUF 节点均为第三方资产，各有其上游许可，详见 [NOTICE.md](NOTICE.md)
 - **模型权重**：版权归原作者，**未包含**在本仓库中，请遵循上游仓库的许可条款
 - **Qwen-Image-2.1 基座**：`Qwen/Qwen-Image-2.1`
 - **GGUF 量化版**：`abenzerps/Qwen-Image-2.1-Uncensored-GGUF`

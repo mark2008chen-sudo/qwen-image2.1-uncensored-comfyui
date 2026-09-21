@@ -1,0 +1,24 @@
+--- a/tools/convert.py
++++ b/tools/convert.py
+@@ -145,8 +145,20 @@
+         ("cap_embedder.1.weight", "context_refiner.0.attention.qkv.weight")
+     ]
+ 
++# [PATCH 2026-09-21] Qwen-Image-2.1 GGUF architecture support.
++# Taken verbatim from leejet/ComfyUI-GGUF (maintained fork w/ native Qwen-Image 2.1 support).
++# Needed because abenzerps/Qwen-Image-2.1-Uncensored-GGUF has no "general.architecture"
++# metadata, so detection falls back to detect_arch() over tensor names. Without this entry
++# UnetLoaderGGUF fails with: "This model is not currently supported - (Unknown model architecture!)"
++# Rollback: restore tools/convert.py.bak_20260921_qwen21
++class QwenImage21(ModelTemplate):
++    arch = "qwen_image21"
++    keys_detect = [
++        ("txt_in.text_norm.weight",)
++    ]
++
+ arch_list = [ModelFlux, ModelSD3, ModelAura, ModelHiDream, CosmosPredict2, 
+-             ModelLTXV, ModelHyVid, ModelWan, ModelSDXL, ModelSD1, ModelLumina2]
++             ModelLTXV, ModelHyVid, ModelWan, ModelSDXL, ModelSD1, ModelLumina2, QwenImage21]
+ 
+ def is_model_arch(model, state_dict):
+     # check if model is correct

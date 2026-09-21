@@ -1,0 +1,27 @@
+# ---- model weights: never commit these (GitHub caps files at 100 MB) ----
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# ---- download artifacts ----
+*.part
+*.tmp
+*.log
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- os / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
